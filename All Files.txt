@@ -1,0 +1,140 @@
+<html>
+  <head>
+    <title>My Favourite 5 Movies List</title>
+    <!-- CSS -->
+    <style>
+      body.wrapper {
+        /* page  fonts */
+        font-family: Arial;
+        margin: 0;
+      }
+
+      /* header css */
+      h1 {
+        background-color: #045388;
+        /* text color */
+        padding: 1.85rem;
+        /* centered */
+        text-align: center;
+        color: aliceblue;
+      }
+
+      /* main cintent css */
+      main {
+        /* centered */
+        margin: auto;
+        width: 1036px;
+        min-height: 70vh;
+      }
+
+      /* table css */
+      main table {
+        /* borders */
+        margin: 1rem auto;
+        margin-bottom: 2rem;
+        border: 2px solid #000000;
+        border-collapse: collapse;
+        width: 500px;
+      }
+
+      /* cells css */
+      main table td, th {
+        color: #1669b1;
+        padding: 0.44rem;
+        border: 2px solid #000000;
+        border-collapse: collapse;
+      }
+      
+      th {
+        background-color: #045388;
+        color: aliceblue;
+      }
+
+      /* footer css */
+      footer {
+        background-color: #045388;
+        /* text color */
+        color: aliceblue;
+        text-align: center;
+        padding: 1.85rem;
+      }
+    </style>
+  </head>
+  <body class="wrapper">
+   
+     <header>
+       <!-- heading -->
+       <h1>My Favourite 5 Movies List</h1>
+     </header>
+     <main>
+       <!-- table -->
+       <table>
+         <caption>
+           List of 5 movies
+         </caption>
+         <tr>
+           <!-- column headers -->
+           <th>SL.No.</th>
+           <th>Movie names</th>
+           <th>Year it released</th>
+           <th>Genre</th>
+           <th>Actors</th>
+         </tr>
+         <tr>
+           <!-- cells -->
+           <td>
+             01.
+           </td>
+           <td>The Dark Knight</td>
+           <td>2008</td>
+           <td>Action</td>
+           <td>Christian Bale, Heath Ledger, Aaron Eckhart</td>
+         </tr>
+         <tr>
+           <!-- cells -->
+           <td>
+             02.
+           </td>
+           <td>Spider-Man: Far From Home  </td>
+           <td>2019</td>
+           <td>Sci-Fi</td>
+           <td>Tom Holland,
+            Samuel L. Jackson,
+            Zendaya</td>
+         </tr>
+         <tr>
+           <!-- cells -->
+           <td>
+             03.
+           </td>
+           <td>Inception</td>
+           <td>2009</td>
+           <td>Sci-Fi</td>
+           <td>Leonardo DiCaprio, Joseph Leonard Gordon</td>
+         </tr>
+         <tr>
+           <!-- cells -->
+           <td>
+             04.
+           </td>
+           <td>Forrest Gump</td>
+           <td>1994</td>
+           <td>Drama</td>
+           <td>
+            Tom Hanks, Robin Wright</td>
+         </tr>
+         <tr>
+           <!-- cells -->
+           <td>
+             05.
+           </td>
+           <td>Star Wars: The Force Awakens</td>
+           <td>Sci-Fi</td>
+           <td>2015</td>
+           <td>Mark Hamill, Harrison Ford</td>
+         </tr>
+       </table>
+     </main>
+    <footer>RAIYAN HRIDDHO</footer>
+  </body>
+</html>
